@@ -1,0 +1,130 @@
+@font-face {
+    font-family: TildaSans;
+    src: url("/fonts/TildaSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: TildaSans-Bold;
+    src: url("/fonts/TildaSans-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Georgia;
+    src: url("/fonts/georgia.ttf");
+}
+
+@font-face {
+    font-family: 'CaslonBecker';
+    src: url("/fonts/CaslonBecker.ttf");
+}
+
+body {
+    font-size: 22px;
+    line-height: 1.7;
+    font-family: TildaSans;
+    color: #292929;
+    /* overflow-x: hidden; */
+}
+
+.wrapper {
+    /* height: 100%;
+    width: 100%;
+    overflow: hidden; */
+    padding: 0 200px;
+    width: 100%
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+span {
+    color: #984563;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    margin: 0 200px;
+}
+
+h2 {
+    font-size: 42px;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+
+section {
+    padding-bottom: 140px
+}
+
+@media screen and (max-width: 992px) {
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,147 @@
+.services__title {
+    text-align: left;
+    font-family: TildaSans-Bold;
+}
+
+.services__content {
+    display: flex;
+    justify-content: center;
+}
+
+.services__right-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__left-content {
+    margin-right: 70px;
+}
+
+.services__item {
+    font-family: TildaSans;
+}
+
+
+/* @media screen and (max-width: 1200px) {
+    .container {
+        margin: 0 100px;
+    }
+    .services__left-content {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        margin: 0 50px;
+    }
+    h2.services__title {
+        font-size: 36px;
+        margin-bottom: 60px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 30px;
+    }
+    .services__text {
+        max-height: none;
+    }
+    .services__content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .services__left-content {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2.services__title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h2.services__title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+} */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        margin: 0 160px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        margin: 0 130px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 80px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 60px;
+    }
+    .services__right-content {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 0 20px;
+    }
+    h2 {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .services__right-content {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        margin: 0 15px;
+    }
+    .services__content {
+        display: flex;
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .services__left-content {
+        order: 2;
+    }
+    .services__right-content {
+        order: 1;
+        padding-left: 10px;
+        padding-bottom: 30px;
+    }
+    .about__photo-pic {
+        width: 290px;
+        height: 465px;
+        padding: 0;
+    }
+}

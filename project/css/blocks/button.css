@@ -1,0 +1,133 @@
+    button {
+        background-color: #984563;
+        color: white;
+        letter-spacing: 2px;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.2s;
+    }
+    
+    button:hover {
+        background-color: white;
+        color: #984563;
+        outline: 1px solid #984563;
+        border: none;
+    }
+    
+    .header__link {
+        border: 1px solid #984563;
+        border-radius: 40px;
+        background-color: #ffffff;
+        color: #984563;
+        padding: 15px 40px;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .header__link:hover {
+        background-color: #984563;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    
+    .hero__button {
+        color: white;
+        /* display: inline-block; */
+        background: #984563;
+        border-radius: 35px;
+        padding: 18px 40px;
+        font-weight: bold;
+        /* text-decoration: none; */
+        font-size: 14px;
+        border-color: #984563;
+    }
+    
+    .hero__button:hover {
+        outline: 1px solid #984563;
+        background-color: white;
+        color: #984563;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .offers__button {
+        background-color: #984563;
+        color: white;
+        border: none;
+        border-radius: 40px;
+        font-size: 16px;
+    }
+    
+    .feedback__button {
+        color: white;
+        background: #984563;
+        border-radius: 35px;
+        padding: 18px 40px;
+        font-weight: bold;
+        font-size: 14px;
+        border-color: #984563;
+        padding: 20px 60px;
+        outline: #984563;
+    }
+    
+    .form__checkbox:checked {
+        background-color: #984563;
+    }
+    
+    .form__agree-text {
+        font-size: 16px;
+        line-height: 0.5;
+    }
+    
+    .form__agree-feedback {
+        line-height: 1.5;
+        text-align: left;
+    }
+    
+    .footer__button {
+        color: #984563;
+        background: white;
+        border-radius: 35px;
+        padding: 20px 40px;
+        font-weight: bold;
+        font-size: 20px;
+        border-color: white;
+        outline: #984563;
+    }
+    
+    .footer__button:hover {
+        background: #984563;
+        color: white;
+        outline: 1px solid white;
+        border: none;
+    }
+    
+    .hero__button {
+        color: white;
+        background: #984563;
+        border-radius: 35px;
+        padding: 20px 40px;
+        font-weight: bold;
+        font-size: 14px;
+        border-color: #984563;
+        outline: #984563;
+    }
+    
+    .button__modal {
+        color: white;
+        background: #984563;
+        border-radius: 35px;
+        padding: 18px 40px;
+        font-weight: bold;
+        font-size: 14px;
+        border-color: #984563;
+        padding: 20px 60px;
+        outline: #984563;
+    }

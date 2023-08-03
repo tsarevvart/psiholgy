@@ -1,0 +1,19 @@
+@import url('blocks/normalize.css');
+@import url('blocks/base.css');
+
+/* @import url('blocks/header.css'); */
+
+@import url('blocks/header1.css');
+@import url('blocks/button.css');
+@import url('blocks/hero.css');
+@import url('blocks/about.css');
+@import url('blocks/features.css');
+@import url('blocks/footer.css');
+@import url('blocks/services.css');
+@import url('blocks/offers.css');
+@import url('blocks/contacts.css');
+@import url('blocks/feedback.css');
+@import url('blocks/modal.css');
+@import url('blocks/hamburger.css');
+@import url('blocks/directions.css');
+@import url('blocks/form-modal.css');
