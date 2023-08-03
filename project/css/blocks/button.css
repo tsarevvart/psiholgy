@@ -39,12 +39,10 @@
     
     .hero__button {
         color: white;
-        /* display: inline-block; */
         background: #984563;
         border-radius: 35px;
         padding: 18px 40px;
         font-weight: bold;
-        /* text-decoration: none; */
         font-size: 14px;
         border-color: #984563;
     }
@@ -63,6 +61,7 @@
         border: none;
         border-radius: 40px;
         font-size: 16px;
+        padding: 20px 60px;
     }
     
     .feedback__button {

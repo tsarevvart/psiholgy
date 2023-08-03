@@ -1,23 +1,23 @@
 @font-face {
     font-family: TildaSans;
-    src: url("/fonts/TildaSans-Regular.ttf");
+    src: url("file:///D:/project/project/fonts/TildaSans-Regular.ttf");
     font-weight: 400;
 }
 
 @font-face {
     font-family: TildaSans-Bold;
-    src: url("/fonts/TildaSans-Bold.ttf");
+    src: url("file:///D:/project/project/fonts/TildaSans-Bold.ttf");
     font-weight: 700;
 }
 
 @font-face {
     font-family: Georgia;
-    src: url("/fonts/georgia.ttf");
+    src: url("file:///D:/project/project/fonts/georgia.ttf");
 }
 
 @font-face {
     font-family: 'CaslonBecker';
-    src: url("/fonts/CaslonBecker.ttf");
+    src: url("file:///D:/project/project/fonts/CaslonBecker.ttf");
 }
 
 body {

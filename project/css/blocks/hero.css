@@ -63,6 +63,7 @@
     font-size: 120px;
 }
 
+
 @media screen and (max-width: 768px) {
     .hero__maincontent {
         display: flex;
@@ -164,5 +165,11 @@
     }
     .hero__photo {
         order: 3;
+    }
+    .header__nav--vertical {
+        padding-top: 30px;
+    } }
+    /* .header__logo_mobile--active{
+        padding-bottom
     }
 }
